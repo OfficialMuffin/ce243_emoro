@@ -1,12 +1,15 @@
-To design and write a C program to control an EMoRo robot. Your program should use the
+Your task is to design and write a C program to control an EMoRo robot. Your program should use the
 push buttons on its GLAM board to input commands and use its LCD to display messages.
 The functions of four buttons are specified below:
 - SW_1: Forward motion and Obstacle avoidance
 - SW_2: Line following (move along a circle track)
 - SW_3: Line following (move along a square track)
 - SW_4: Stop the motion of the robot and reset the computer for next button input.
+
 Button: The input to your program will be the four push buttons, SW_1, SW_2, SW_3 and
-SW_4. These buttons will trigger the EMoRo robot to implement different tasks.
+SW_4. 
+
+These buttons will trigger the EMoRo robot to implement different tasks.
 More specifically,
 Pressing SW_1 triggers the EMoRo robot to move forward and avoid any obstacle
 detected by its on-board sonar sensors.
