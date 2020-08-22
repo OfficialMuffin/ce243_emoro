@@ -1,3 +1,5 @@
+# CE243 Assignment 2
+
 Your task is to design and write a C program to control an EMoRo robot. Your program should use the
 push buttons on its GLAM board to input commands and use its LCD to display messages.
 The functions of four buttons are specified below:
@@ -11,14 +13,15 @@ SW_4.
 
 These buttons will trigger the EMoRo robot to implement different tasks.
 More specifically,
-Pressing SW_1 triggers the EMoRo robot to move forward and avoid any obstacle
+- Pressing SW_1 triggers the EMoRo robot to move forward and avoid any obstacle
 detected by its on-board sonar sensors.
-Pressing SW_2 triggers the EMoRo robot to move along a circle track which is
+- Pressing SW_2 triggers the EMoRo robot to move along a circle track which is
 very smooth.
-Pressing SW_3 triggers the EMoRo robot to move along a square track that has
+- Pressing SW_3 triggers the EMoRo robot to move along a square track that has
 four sharp turns at 90 degrees.
-Pressing SW_4 will stop the movement of the EMoRo robot and reset the
+- Pressing SW_4 will stop the movement of the EMoRo robot and reset the
 embedded computer for next button input.
+
 LCD: All messages should be displayed on the LCD device on the robot.
 1) When the robot is switched on or after SW_4 is pressed, the LED should
 display the following message:
